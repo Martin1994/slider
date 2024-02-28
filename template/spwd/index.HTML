@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>登录</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/kb.css" />
+		<!--<link rel="stylesheet" type="text/css" media="screen and (max-width:320px)" href="kb_iphone.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (min-width:321px)" href="kb_iphone_landscape.css" />-->
+		<link rel="stylesheet" type="text/css" media="screen and (orientation:portrait)" href="kb_ipad.css" />
+		<link rel="stylesheet" type="text/css" media="screen and (orientation:landscape)" href="kb_ipad_landscape.css" />
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="user-scalable=0;" name="viewport" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/kb.js"></script>
+	</head>
+	<body>
+		<div id="Slider">
+			<div class="loginUI">
+				<form id="post_form" action="login.php" method="post">
+					<div class="log" style="height:20px">请先设置想要测试的密文</div>
+					<div>
+						<div class="input_name">密码</div>
+						<div class="input_value"><input id="user" type="text" name="user" /></div>
+					</div>
+					<div id="kb" class="keyboard">
+						<div class="area-shift">
+							<div class="shiftkey" key="s" unselectable="on" onselectstart="return false;">Shift</div>
+						</div>
+						<div class="area-ABC">
+							<?=$keys?>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div align=center>
+			欢迎体验滑动密码输入<br />
+			在“密码”输入框内输入想要测试的密码内容<br />
+			然后在键盘区拖动，依次经过密码按键<br />
+			如果密码中有大小写可在拖动过程中按下键盘上（PC）或左边的（iOS）Shift，经过完大写字母后再松开
+	</body>
+</html>
+
+  

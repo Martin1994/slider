@@ -1,0 +1,134 @@
+@charset "utf-8";
+.loginUI{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.log{
+	margin:10px 0 0 0;
+}
+
+.input_name{
+	margin:10px 0 0 0;
+}
+
+.area-ABC
+{
+	position:absolute;
+	left:120px;
+	text-align:left;
+}
+
+.area-shift
+{
+	position:absolute;
+}
+
+.keyboard
+{
+	position:relative;
+	display:inline-block;
+	margin:10px 3px 3px 0;
+	padding:10px;
+	border:1px solid #000;
+	background:rgba(128, 192, 255, 0.2);
+	text-align:center;
+	width:805px;
+	height:250px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+.keyboard .key
+{
+	border:1px solid #AAA;
+	background:rgba(128, 192, 255, 0.2);
+	position:relative;
+	/*width:17px;height:17px;*/
+	width:40px;height:40px;
+	display:inline-block;
+	margin:0 4px 4px 0;
+	padding:5px;
+	text-align:center;
+}
+.keyboard .key.hover
+{
+	box-shadow:0 0 15px #F00;
+	cursor:pointer;
+}
+
+.keyboard .shiftkey
+{
+	border:1px solid #AAA;
+	background:rgba(128, 192, 255, 0.2);
+	position:relative;
+	width:80px;height:220px;
+	display:inline-block;
+	margin:0 4px 4px 0;
+	padding:5px;
+	text-align:center;
+}
+.keyboard .shiftkey.disabled
+{
+	background:rgba(128, 128, 128, 0.2);
+	color:#888;
+}
+
+/*.keyboard .key:hover
+{
+	background:rgba(128, 255, 128, 0.2);
+}*/
+
+.keyboard .l0
+{
+	padding:0 0 5px 0;
+}
+
+.keyboard .l1
+{
+	padding:0 0 5px 30px;
+}
+
+.keyboard .l2
+{
+	padding:0 0 5px 60px;
+}
+
+.keyboard .l3
+{
+	padding:0 0 5px 90px;
+}
+
+form .input_name
+{
+	position:relative;
+	width:150px;
+	display:inline-block;
+	text-align:center;
+}
+
+form .input_value
+{
+	position:relative;
+	width:250px;
+	border:0;
+	display:inline-block;
+	text-align:center;
+}
+
+form .input_value input
+{
+	width:200px;
+}
+
+form
+{
+	text-align:center;
+}
+
+div.rotate
+{
+  -webkit-transform:rotate(90deg) scale(1.4);
+  margin-top:380px;
+}
